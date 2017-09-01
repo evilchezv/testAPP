@@ -23,6 +23,8 @@ gem 'coffee-rails', '~> 4.2'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+gem 'bootstrap', '~> 4.0.0.beta'
+gem 'popper_js', '~> 1.11.1'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -53,7 +55,7 @@ group :development do
   gem "capistrano-rails", '~> 1.2.3', require: false
   gem 'capistrano3-delayed-job', '~> 1.7.3'
   gem 'mdl', '~> 0.4.0', require: false
-  gem 'rvm1-capistrano3', '~> 1.4.0', require: false 
+  gem 'rvm1-capistrano3', '~> 1.4.0', require: false
 
 end
 
